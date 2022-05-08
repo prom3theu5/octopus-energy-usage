@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container min-vh-200 d-flex align-items-center">
+	<div class="row">
+		<div class="col-md-6">
+            <div class="lc-block">
+                <img class="card-img-top" src="/img/electricity.jpg" alt="Electricity" loading="lazy">
+                <div class="card shadow-lg p-3 bg-white text-dark">
+                    <div class="card-body text-center">
+                        <h3 class="card-title mb-5" editable="inline" id="electricity-usage"><span style="color: #0b5ed7;">Waiting for Sync</span></h3>
+                    </div>
+                </div>
+            </div>
+		</div>
+		<div class="col-md-6">
+            <div class="lc-block">
+                <img class="card-img-top" src="/img/gas.jpg" alt="Gas" loading="lazy">
+                <div class="card shadow-lg p-3 bg-white text-dark">
+                    <div class="card-body text-center">
+                        <h3 class="card-title mb-5" editable="inline" id="gas-usage"><span style="color: #0b5ed7;">Waiting for Sync</span></h3>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+
+
+@section Scripts {
+    <script src="~/js/usage.js" asp-append-version="true"></script>
+}
