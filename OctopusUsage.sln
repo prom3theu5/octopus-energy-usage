@@ -1,0 +1,78 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31423.177
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{57BAE1BC-D418-4A95-B292-C0E9324B0A54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FBD2504D-975E-4B64-B938-7DDD19C7DB9D}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		build.cake = build.cake
+		Directory.Build.props = Directory.Build.props
+		dotnet-tools.json = dotnet-tools.json
+		global.json = global.json
+		dotnet.ruleset = dotnet.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{60E0F62E-605A-48F2-BFCA-C63B45AB6335}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{539EF653-396F-4D8F-862B-F7C9E02DE3E6}"
+	ProjectSection(SolutionItems) = preProject
+		.github\dependabot.yml = .github\dependabot.yml
+		.github\release-drafter.yml = .github\release-drafter.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{12D470EA-4FD9-4764-A391-C8FD4534EDE9}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+		.github\workflows\codeql-analysis.yml = .github\workflows\codeql-analysis.yml
+		.github\workflows\release-drafter.yml = .github\workflows\release-drafter.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{39201BE6-3136-42D1-8B2B-0552FAD18A78}"
+	ProjectSection(SolutionItems) = preProject
+		.github\CODE_OF_CONDUCT.md = .github\CODE_OF_CONDUCT.md
+		.github\CONTRIBUTING.md = .github\CONTRIBUTING.md
+		.github\PULL_REQUEST_TEMPLATE.md = .github\PULL_REQUEST_TEMPLATE.md
+		.github\SECURITY.md = .github\SECURITY.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISSUE_TEMPLATE", "ISSUE_TEMPLATE", "{623ED17E-E051-4F69-A3BF-3D362A3A3735}"
+	ProjectSection(SolutionItems) = preProject
+		.github\ISSUE_TEMPLATE\BUG_REPORT.yml = .github\ISSUE_TEMPLATE\BUG_REPORT.yml
+		.github\ISSUE_TEMPLATE\FEATURE_REQUEST.yml = .github\ISSUE_TEMPLATE\FEATURE_REQUEST.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctopusUsage", "src\OctopusUsage\OctopusUsage.csproj", "{566D00C5-B4A0-4471-987E-A37DE53BCC54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{566D00C5-B4A0-4471-987E-A37DE53BCC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566D00C5-B4A0-4471-987E-A37DE53BCC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566D00C5-B4A0-4471-987E-A37DE53BCC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566D00C5-B4A0-4471-987E-A37DE53BCC54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{539EF653-396F-4D8F-862B-F7C9E02DE3E6} = {FBD2504D-975E-4B64-B938-7DDD19C7DB9D}
+		{12D470EA-4FD9-4764-A391-C8FD4534EDE9} = {539EF653-396F-4D8F-862B-F7C9E02DE3E6}
+		{39201BE6-3136-42D1-8B2B-0552FAD18A78} = {60E0F62E-605A-48F2-BFCA-C63B45AB6335}
+		{623ED17E-E051-4F69-A3BF-3D362A3A3735} = {39201BE6-3136-42D1-8B2B-0552FAD18A78}
+		{566D00C5-B4A0-4471-987E-A37DE53BCC54} = {57BAE1BC-D418-4A95-B292-C0E9324B0A54}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E464B40-8B3D-427D-BA61-053DB0B94967}
+	EndGlobalSection
+EndGlobal
