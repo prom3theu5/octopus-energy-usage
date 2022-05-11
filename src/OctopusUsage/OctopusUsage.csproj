@@ -21,7 +21,7 @@
     <PackageReference Include="Microsoft.CodeAnalysis.Compilers" Version="4.1.0" />
     <PackageReference Include="Microsoft.Net.Compilers" Version="4.1.0" />
     <PackageReference Include="MinVer" PrivateAssets="all" Version="3.1.0" />
-    <PackageReference Include="Microsoft.AspNetCore.AzureAppServicesIntegration" Version="6.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.AzureAppServicesIntegration" Version="6.0.5" />
     <PackageReference Include="Serilog" Version="2.11.0" />
     <PackageReference Include="Serilog.AspNetCore" Version="5.0.0" />
     <PackageReference Include="Serilog.Enrichers.Environment" Version="2.2.0" />
