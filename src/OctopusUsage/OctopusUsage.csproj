@@ -18,7 +18,7 @@
   <ItemGroup Label="Package References">
     <PackageReference Include="Ardalis.GuardClauses" Version="4.0.1" />
     <PackageReference Include="ImpSoft.OctopusEnergy.Api" Version="3.0.1" />
-    <PackageReference Include="Microsoft.CodeAnalysis.Compilers" Version="4.1.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Compilers" Version="4.2.0" />
     <PackageReference Include="Microsoft.Net.Compilers" Version="4.1.0" />
     <PackageReference Include="MinVer" PrivateAssets="all" Version="3.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.AzureAppServicesIntegration" Version="6.0.4" />
